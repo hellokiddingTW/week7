@@ -1,0 +1,77 @@
+////font-family////
+.loto-Bo{
+    font-family: Lato-Bold;
+}
+
+
+
+
+
+
+
+////font-size////
+.fz-sm{
+    font-size: 14px; 
+}
+.fz-2{
+    font-size: 0.75rem;
+}
+
+.fz-3{
+    font-size: 1rem;
+}
+
+.fz-4{
+    font-size: 1.25rem;
+}
+
+.fz-5{
+    font-size:1.5rem;
+}
+
+.fz-6{
+    font-size:1.75rem;
+}
+
+.fz-7{
+    font-size:2rem;
+}
+
+.fz-8{
+    font-size:2.25rem;
+}
+
+.fz-9{
+    font-size:2.5rem;
+}
+
+.fz-10{
+    font-size: 3rem;
+}
+
+
+.fz-sl{
+    font-size: 64px;
+}
+
+
+.lh-s{
+    line-height: 1.2;
+}
+
+
+.img-fluid{ 
+    height:auto;
+    width:100%;
+    max-width: 100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+
+.logoNav{
+    @include textPic;
+    background:url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/week7/logo-fixie.svg') center center no-repeat;
+    width: 112px;
+    height: 48px;
+    }
