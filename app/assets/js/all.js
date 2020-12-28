@@ -1,16 +1,24 @@
-import lax from 'lax.js';
+// import lax from 'lax.js';
 
+// window.onload = function () {
+//   lax.init()
 
-window.onload = function() {
-  lax.setup() // init
+//   // Add a driver that we use to control our animations
+//   lax.addDriver('scrollY', function () {
+//     return window.scrollY
+//   })
 
-  const updateLax = () => {
-    lax.update(window.scrollY)
-    window.requestAnimationFrame(updateLax)
-  }
+//   // Add animation bindings to elements
+//   lax.addElements('.selector', {
+//     scrollY: {
+//       translateX: [
+//         ["elInY", "elCenterY", "elOutY"],
+//         [0, 'screenWidth/2', 'screenWidth'],
+//       ]
+//     }
+//   })
+// }
 
-  window.requestAnimationFrame(updateLax)
-}
 
 console.log('Hello!');
 
