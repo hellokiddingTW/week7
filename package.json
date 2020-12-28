@@ -1,7 +1,7 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "",
+  "description": "## 指令列表",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -35,8 +35,18 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "jquery": "^3.5.1",
+    "lax.js": "^2.0.2",
     "minimist": "^1.2.0",
     "morgan": "^1.9.1",
     "node-sass": "^4.12.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellokiddingTW/week7.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hellokiddingTW/week7/issues"
+  },
+  "homepage": "https://github.com/hellokiddingTW/week7#readme"
 }

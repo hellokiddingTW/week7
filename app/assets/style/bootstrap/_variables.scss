@@ -72,7 +72,8 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 $gray:          #0000009A !default;
-
+$indexbg:       #F1F5F6!default;
+$allBlack:      #000000 !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -86,6 +87,8 @@ $theme-colors: map-merge(
     "light":      $light,
     "dark":       $dark,
     "gray":       $gray,
+    "indexbg":    $indexbg,
+    "allBlack":   $allBlack,
   ),
   $theme-colors
 );
@@ -191,8 +194,8 @@ $body-color:                $gray-900 !default;
 
 $link-color:                              theme-color("primary") !default;
 $link-decoration:                         none !default;
-$link-hover-color:                        darken($link-color, 15%) !default;
-$link-hover-decoration:                   underline !default;
+$link-hover-color:                        none !default;
+$link-hover-decoration:                   none !default;
 // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 $emphasized-link-hover-darken-percentage: 15% !default;
 

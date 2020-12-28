@@ -3,11 +3,9 @@
     font-family: Lato-Bold;
 }
 
-
-
-
-
-
+.merriweather-Bi{
+    font-family: Merriweather-BlackItalic;
+}
 
 ////font-size////
 .fz-sm{
@@ -59,6 +57,14 @@
     line-height: 1.2;
 }
 
+.lh-1{
+    line-height: 1;
+}
+
+
+.-pushRight{
+    right:-48.25px
+}
 
 .img-fluid{ 
     height:auto;
@@ -69,9 +75,80 @@
 }
 
 
+
 .logoNav{
     @include textPic;
     background:url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/week7/logo-fixie.svg') center center no-repeat;
     width: 112px;
     height: 48px;
     }
+
+.bgSection{
+    background:url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img4.jpg?raw=true') no-repeat;
+    background-size:cover;
+    min-height: 640px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center 25%;
+
+}
+
+    .cardHover{
+        color:#000;
+        &:hover{
+            background-color: #000;
+            span{
+                color: #fff;
+            }
+            
+        }
+    }
+
+
+    .btnBike{
+        z-index: 10;
+        .btnText{
+            color:#000;
+            background-color: #fff;
+        }
+        .btnIcon{
+            color:#fff;
+            background-color: #000;
+        }
+        &:hover{
+            .btnText{
+                color:#fff;
+                background-color: #272727;
+            }
+            .btnIcon{
+                color:#000;
+                background-color:#FDFFFF          
+            } 
+         }
+    }
+
+.btnGear{
+    z-index: 10;
+        .btnText{
+            color:#fff;
+            background-color: #000;
+        }
+        .btnIcon{
+            color:#000;
+            background-color: #fff;
+        }
+        &:hover{
+            .btnText{
+                color:#000;
+                background-color:#FDFFFF;
+                opacity: 0.6;
+                
+            }
+            .btnIcon{
+                color:#fff;
+                background-color: #272727;
+                opacity: 0.6;
+               
+            } 
+         }
+}
